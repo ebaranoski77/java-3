@@ -1,0 +1,17 @@
+
+plugins {
+    id 'java'
+}
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-csv', version: '1.6'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
