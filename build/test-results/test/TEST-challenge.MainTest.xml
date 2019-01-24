@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="challenge.MainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-24T16:32:30" hostname="rvsilva.local" time="5.303">
+  <properties/>
+  <testcase name="q1" classname="challenge.MainTest" time="1.192"/>
+  <testcase name="q2" classname="challenge.MainTest" time="1.006"/>
+  <testcase name="q3" classname="challenge.MainTest" time="0.742"/>
+  <testcase name="q4" classname="challenge.MainTest" time="0.829"/>
+  <testcase name="q5" classname="challenge.MainTest" time="0.798"/>
+  <testcase name="q6" classname="challenge.MainTest" time="0.734"/>
+  <system-out><![CDATA[164
+647
+[C. Ronaldo dos Santos Aveiro, Lionel Messi, Neymar da Silva Santos Jr., Luis Suárez, Manuel Neuer, Robert Lewandowski, David De Gea Quintana, Eden Hazard, Toni Kroos, Gonzalo Higuaín, Sergio Ramos García, Kevin De Bruyne, Thibaut Courtois, Alexis Sánchez, Luka Modrić, Gareth Bale, Sergio Agüero, Giorgio Chiellini, Gianluigi Buffon, Paulo Dybala]
+[Neymar da Silva Santos Jr., Lionel Messi, Luis Suárez, C. Ronaldo dos Santos Aveiro, Eden Hazard, Toni Kroos, Kevin De Bruyne, Antoine Griezmann, Robert Lewandowski, Gareth Bale]
+[Barry Richardson, Essam El Hadary, Óscar Pérez, Jimmy Walker, Danny Coyne, Chris Day, Joaquim Manuel Sampaio Silva, Kjetil Wæhler, Timmy Simons, Benjamin Nivet]
+{16=18, 17=270, 18=682, 19=1088, 20=1252, 21=1275, 22=1324, 23=1395, 24=1321, 25=1515, 26=1199, 27=1153, 28=1053, 29=1127, 30=807, 31=666, 32=506, 33=610, 34=271, 35=188, 36=137, 37=69, 38=38, 39=18, 40=4, 41=3, 43=2, 44=2, 47=1}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

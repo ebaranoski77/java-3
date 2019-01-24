@@ -26,13 +26,22 @@ public class Main {
 
 	public List<Jogador> jogadores = new ArrayList<>();
 
-	public Main() throws FileNotFoundException, ParseException {
+	public Main() {
 		File  archieveCSV = new File("src/main/resources/data.csv");
-		Scanner gravar = new Scanner(archieveCSV);
+		Scanner gravar = null;
+		try {
+			gravar = new Scanner(archieveCSV);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		gravar.nextLine();
 		while(gravar.hasNext()){
 			String str[] = gravar.nextLine().split(",");
-			jogadores.add(new Jogador(str[2], str[3], new Integer(str[6]),	str[8],str[14], new Double(str[17]), str[18]));
+			try {
+				jogadores.add(new Jogador(str[2], str[3], new Integer(str[6]),	str[8],str[14], new Double(str[17]), str[18]));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
 
 
 		}

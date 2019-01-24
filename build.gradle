@@ -2,9 +2,7 @@
 plugins {
     id 'java'
 }
-dependencies {
-    testImplementation 'junit:junit:4.12'
-}
+
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-csv', version: '1.6'
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
